@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Product = (props) => {
-    const {name,img,seller,price,ratings,quantity} = props.product
+    const {name,img,seller,price,ratings,quantity,shipping} = props.product
     const handleAddToCart = props.handleAddToCart;
     return (
         <div className='product w-[300px] h-[510px] border border-gray-400 mt-5 mx-1 rounded-md relative flex flex-col'>
